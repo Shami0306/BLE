@@ -1,4 +1,4 @@
-# BLE
+# BLE for RSSI Matching
 
 before&after目錄 : 存放未經處理&處理過後的藍芽RSSI資料  
 
