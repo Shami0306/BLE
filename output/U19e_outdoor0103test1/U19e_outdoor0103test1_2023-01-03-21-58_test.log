@@ -1,0 +1,2 @@
+2023-01-03 21:58:32,148 => loading checkpoint 'output/U19e_outdoor0103/checkpoint.pth'
+2023-01-03 21:58:48,655 => loading checkpoint 'output/U19e_outdoor0103/checkpoint_lstm.pth'

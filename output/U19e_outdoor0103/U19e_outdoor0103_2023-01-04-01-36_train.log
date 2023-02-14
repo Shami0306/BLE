@@ -1,0 +1,1600 @@
+2023-01-04 01:36:03,786 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:03,787 best validation accuracy : 11.52073732718894%
+2023-01-04 01:36:03,787 best in range accuracy : 39.1705069124424%
+2023-01-04 01:36:03,787 best mean distance error : 3.953917050691244
+2023-01-04 01:36:04,049 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:04,049 best validation accuracy : 47.004608294930875%
+2023-01-04 01:36:04,049 best in range accuracy : 79.72350230414746%
+2023-01-04 01:36:04,050 best mean distance error : 1.640552995391705
+2023-01-04 01:36:04,338 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:04,339 best validation accuracy : 76.036866359447%
+2023-01-04 01:36:04,339 best in range accuracy : 94.93087557603687%
+2023-01-04 01:36:04,340 best mean distance error : 0.663594470046083
+2023-01-04 01:36:04,593 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:04,593 best validation accuracy : 72.35023041474655%
+2023-01-04 01:36:04,593 best in range accuracy : 93.54838709677419%
+2023-01-04 01:36:04,594 best mean distance error : 0.7465437788018433
+2023-01-04 01:36:04,884 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:04,884 best validation accuracy : 71.42857142857143%
+2023-01-04 01:36:04,884 best in range accuracy : 95.39170506912443%
+2023-01-04 01:36:04,885 best mean distance error : 0.7741935483870968
+2023-01-04 01:36:05,172 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:05,172 best validation accuracy : 80.64516129032258%
+2023-01-04 01:36:05,172 best in range accuracy : 95.85253456221199%
+2023-01-04 01:36:05,173 best mean distance error : 0.5161290322580645
+2023-01-04 01:36:05,435 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:05,435 best validation accuracy : 80.64516129032258%
+2023-01-04 01:36:05,436 best in range accuracy : 95.85253456221199%
+2023-01-04 01:36:05,436 best mean distance error : 0.5161290322580645
+2023-01-04 01:36:05,722 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:05,722 best validation accuracy : 85.71428571428571%
+2023-01-04 01:36:05,723 best in range accuracy : 97.23502304147465%
+2023-01-04 01:36:05,723 best mean distance error : 0.35944700460829493
+2023-01-04 01:36:06,008 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:06,008 best validation accuracy : 88.0184331797235%
+2023-01-04 01:36:06,009 best in range accuracy : 98.15668202764977%
+2023-01-04 01:36:06,009 best mean distance error : 0.2764976958525346
+2023-01-04 01:36:06,298 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:06,298 best validation accuracy : 87.09677419354838%
+2023-01-04 01:36:06,299 best in range accuracy : 97.23502304147465%
+2023-01-04 01:36:06,299 best mean distance error : 0.3225806451612903
+2023-01-04 01:36:06,573 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:06,573 best validation accuracy : 88.94009216589862%
+2023-01-04 01:36:06,573 best in range accuracy : 96.7741935483871%
+2023-01-04 01:36:06,574 best mean distance error : 0.30414746543778803
+2023-01-04 01:36:06,860 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:06,860 best validation accuracy : 88.94009216589862%
+2023-01-04 01:36:06,861 best in range accuracy : 96.7741935483871%
+2023-01-04 01:36:06,861 best mean distance error : 0.30414746543778803
+2023-01-04 01:36:07,133 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:07,134 best validation accuracy : 88.47926267281106%
+2023-01-04 01:36:07,134 best in range accuracy : 96.7741935483871%
+2023-01-04 01:36:07,134 best mean distance error : 0.31336405529953915
+2023-01-04 01:36:07,408 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:07,408 best validation accuracy : 88.47926267281106%
+2023-01-04 01:36:07,409 best in range accuracy : 96.7741935483871%
+2023-01-04 01:36:07,409 best mean distance error : 0.31336405529953915
+2023-01-04 01:36:07,687 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:07,687 best validation accuracy : 88.47926267281106%
+2023-01-04 01:36:07,687 best in range accuracy : 96.7741935483871%
+2023-01-04 01:36:07,688 best mean distance error : 0.31336405529953915
+2023-01-04 01:36:07,940 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:07,940 best validation accuracy : 88.47926267281106%
+2023-01-04 01:36:07,941 best in range accuracy : 96.7741935483871%
+2023-01-04 01:36:07,941 best mean distance error : 0.31336405529953915
+2023-01-04 01:36:08,332 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:08,332 best validation accuracy : 88.94009216589862%
+2023-01-04 01:36:08,332 best in range accuracy : 97.23502304147465%
+2023-01-04 01:36:08,333 best mean distance error : 0.2857142857142857
+2023-01-04 01:36:08,710 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:08,710 best validation accuracy : 88.94009216589862%
+2023-01-04 01:36:08,711 best in range accuracy : 97.23502304147465%
+2023-01-04 01:36:08,711 best mean distance error : 0.2857142857142857
+2023-01-04 01:36:08,975 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:08,975 best validation accuracy : 88.94009216589862%
+2023-01-04 01:36:08,976 best in range accuracy : 97.23502304147465%
+2023-01-04 01:36:08,976 best mean distance error : 0.2857142857142857
+2023-01-04 01:36:09,233 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:09,233 best validation accuracy : 88.94009216589862%
+2023-01-04 01:36:09,233 best in range accuracy : 97.23502304147465%
+2023-01-04 01:36:09,234 best mean distance error : 0.2857142857142857
+2023-01-04 01:36:09,509 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:09,509 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:09,509 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:09,510 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:09,797 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:09,797 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:09,798 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:09,798 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:10,064 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:10,064 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:10,064 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:10,065 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:10,343 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:10,344 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:10,344 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:10,344 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:10,624 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:10,624 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:10,625 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:10,625 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:10,886 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:10,886 best validation accuracy : 91.2442396313364%
+2023-01-04 01:36:10,887 best in range accuracy : 97.23502304147465%
+2023-01-04 01:36:10,887 best mean distance error : 0.2304147465437788
+2023-01-04 01:36:11,145 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:11,145 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:11,146 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:11,146 best mean distance error : 0.22119815668202766
+2023-01-04 01:36:11,425 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:11,425 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:11,425 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:11,426 best mean distance error : 0.22119815668202766
+2023-01-04 01:36:11,728 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:11,728 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:11,729 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:11,729 best mean distance error : 0.22119815668202766
+2023-01-04 01:36:11,987 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:11,988 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:11,988 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:11,988 best mean distance error : 0.22119815668202766
+2023-01-04 01:36:12,273 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:12,273 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:12,273 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:12,274 best mean distance error : 0.22119815668202766
+2023-01-04 01:36:12,542 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:12,542 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:12,542 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:12,543 best mean distance error : 0.22119815668202766
+2023-01-04 01:36:12,821 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:12,821 best validation accuracy : 90.78341013824885%
+2023-01-04 01:36:12,821 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:12,822 best mean distance error : 0.22119815668202766
+2023-01-04 01:36:13,094 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:13,094 best validation accuracy : 92.62672811059907%
+2023-01-04 01:36:13,094 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:13,095 best mean distance error : 0.16589861751152074
+2023-01-04 01:36:13,350 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:13,351 best validation accuracy : 92.62672811059907%
+2023-01-04 01:36:13,351 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:13,351 best mean distance error : 0.16589861751152074
+2023-01-04 01:36:13,633 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:13,633 best validation accuracy : 92.62672811059907%
+2023-01-04 01:36:13,634 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:13,634 best mean distance error : 0.16589861751152074
+2023-01-04 01:36:13,905 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:13,905 best validation accuracy : 92.62672811059907%
+2023-01-04 01:36:13,905 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:13,906 best mean distance error : 0.16589861751152074
+2023-01-04 01:36:14,179 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:14,180 best validation accuracy : 92.62672811059907%
+2023-01-04 01:36:14,180 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:14,180 best mean distance error : 0.16589861751152074
+2023-01-04 01:36:14,456 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:14,457 best validation accuracy : 92.62672811059907%
+2023-01-04 01:36:14,457 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:14,457 best mean distance error : 0.16589861751152074
+2023-01-04 01:36:14,723 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:14,723 best validation accuracy : 92.62672811059907%
+2023-01-04 01:36:14,723 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:14,723 best mean distance error : 0.16589861751152074
+2023-01-04 01:36:14,983 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:14,984 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:14,984 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:14,984 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:15,259 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:15,259 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:15,259 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:15,260 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:15,532 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:15,532 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:15,532 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:15,533 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:15,802 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:15,803 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:15,803 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:15,803 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:16,057 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:16,058 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:16,058 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:16,058 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:16,323 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:16,324 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:16,324 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:16,324 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:16,592 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:16,593 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:16,593 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:16,593 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:16,870 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:16,870 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:16,871 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:16,871 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:17,152 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:17,153 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:17,153 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:17,153 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:17,409 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:17,410 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:17,410 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:17,410 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:17,684 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:17,684 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:17,684 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:17,685 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:17,953 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:17,953 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:17,953 best in range accuracy : 98.61751152073732%
+2023-01-04 01:36:17,954 best mean distance error : 0.20276497695852536
+2023-01-04 01:36:18,229 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:18,229 best validation accuracy : 92.62672811059907%
+2023-01-04 01:36:18,230 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:18,230 best mean distance error : 0.16589861751152074
+2023-01-04 01:36:18,498 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:18,498 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:18,499 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:18,499 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:18,780 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:18,781 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:18,781 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:18,781 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:19,054 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:19,054 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:19,055 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:19,055 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:19,391 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:19,392 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:19,392 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:19,392 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:19,769 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:19,770 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:19,770 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:19,770 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:20,047 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:20,047 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:20,047 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:20,048 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:20,322 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:20,323 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:20,323 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:20,323 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:20,583 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:20,583 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:20,583 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:20,584 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:20,867 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:20,867 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:20,868 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:20,868 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:21,127 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:21,127 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:21,128 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:21,128 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:21,403 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:21,403 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:21,403 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:21,404 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:21,667 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:21,667 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:21,667 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:21,668 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:21,940 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:21,940 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:21,941 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:21,941 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:22,218 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:22,218 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:22,219 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:22,219 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:22,505 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:22,505 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:22,506 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:22,506 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:22,777 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:22,777 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:22,778 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:22,778 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:23,026 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:23,026 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:23,026 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:23,026 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:23,300 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:23,301 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:23,301 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:23,301 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:23,570 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:23,571 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:23,571 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:23,571 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:23,841 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:23,841 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:23,841 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:23,841 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:24,106 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:24,107 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:24,107 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:24,107 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:24,367 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:24,367 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:24,367 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:24,368 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:24,645 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:24,645 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:24,646 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:24,646 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:24,923 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:24,923 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:24,923 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:24,923 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:25,199 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:25,199 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:25,199 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:25,199 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:25,472 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:25,472 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:25,472 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:25,473 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:25,744 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:25,744 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:25,744 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:25,745 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:26,014 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:26,014 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:26,014 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:26,015 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:26,279 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:26,280 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:26,280 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:26,280 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:26,547 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:26,547 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:26,547 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:26,548 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:26,820 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:26,820 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:26,820 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:26,821 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:27,102 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:27,103 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:27,103 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:27,103 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:27,367 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:27,367 best validation accuracy : 91.70506912442396%
+2023-01-04 01:36:27,368 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:27,368 best mean distance error : 0.18433179723502305
+2023-01-04 01:36:27,628 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:27,628 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:27,629 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:27,629 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:27,911 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:27,912 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:27,912 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:27,912 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:28,336 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:28,336 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:28,337 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:28,337 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:28,709 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:28,709 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:28,710 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:28,710 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:28,966 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:28,966 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:28,966 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:28,966 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:29,248 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:29,248 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:29,249 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:29,249 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:29,515 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:29,516 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:29,516 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:29,517 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:29,800 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:29,800 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:29,801 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:29,801 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:30,051 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:30,052 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:30,052 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:30,052 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:30,327 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:30,328 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:30,328 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:30,328 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:30,606 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:30,607 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:30,607 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:30,607 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:30,866 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:30,866 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:30,866 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:30,867 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:31,135 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:31,135 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:31,136 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:31,136 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:31,403 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:31,403 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:31,404 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:31,404 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:31,669 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:31,669 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:31,669 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:31,669 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:31,925 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:31,925 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:31,926 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:31,926 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:32,206 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:32,206 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:32,207 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:32,207 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:32,476 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:32,476 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:32,476 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:32,477 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:32,745 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:32,745 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:32,746 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:32,746 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:33,003 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:33,003 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:33,004 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:33,004 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:33,273 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:33,273 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:33,274 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:33,274 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:33,577 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:33,577 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:33,577 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:33,578 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:33,848 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:33,848 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:33,849 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:33,849 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:34,135 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:34,135 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:34,135 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:34,136 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:34,412 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:34,413 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:34,413 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:34,413 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:34,698 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:34,698 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:34,699 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:34,699 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:34,967 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:34,967 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:34,967 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:34,967 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:35,233 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:35,234 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:35,234 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:35,234 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:35,514 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:35,514 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:35,514 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:35,515 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:35,785 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:35,786 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:35,786 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:35,787 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:36,059 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:36,059 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:36,059 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:36,059 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:36,331 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:36,331 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:36,332 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:36,332 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:36,594 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:36,595 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:36,595 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:36,596 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:36,848 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:36,849 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:36,849 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:36,849 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:37,119 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:37,119 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:37,119 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:37,120 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:37,472 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:37,473 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:37,473 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:37,473 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:37,740 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:37,740 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:37,740 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:37,741 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:38,022 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:38,023 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:38,023 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:38,023 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:38,285 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:38,286 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:38,286 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:38,287 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:38,554 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:38,555 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:38,555 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:38,555 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:38,811 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:38,811 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:38,812 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:38,812 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:39,070 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:39,070 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:39,070 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:39,070 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:39,331 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:39,332 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:39,332 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:39,332 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:39,607 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:39,608 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:39,608 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:39,608 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:39,877 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:39,878 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:39,878 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:39,879 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:40,148 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:40,149 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:40,149 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:40,149 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:40,419 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:40,420 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:40,420 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:40,420 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:40,695 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:40,696 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:40,696 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:40,697 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:41,090 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:41,090 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:41,090 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:41,091 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:41,350 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:41,350 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:41,350 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:41,351 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:41,635 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:41,635 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:41,636 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:41,636 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:41,902 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:41,902 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:41,902 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:41,903 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:42,189 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:42,190 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:42,190 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:42,190 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:42,461 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:42,461 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:42,461 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:42,462 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:42,720 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:42,720 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:42,721 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:42,721 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:42,965 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:42,966 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:42,966 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:42,966 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:43,215 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:43,215 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:43,215 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:43,216 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:43,469 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:43,469 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:43,469 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:43,470 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:43,761 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:43,761 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:43,761 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:43,761 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:44,021 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:44,022 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:44,022 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:44,022 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:44,297 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:44,298 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:44,298 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:44,298 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:44,568 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:44,568 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:44,569 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:44,569 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:44,832 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:44,832 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:44,833 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:44,833 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:45,100 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:45,101 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:45,101 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:45,101 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:45,376 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:45,377 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:45,377 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:45,377 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:45,661 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:45,661 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:45,662 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:45,662 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:45,939 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:45,939 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:45,940 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:45,940 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:46,225 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:46,226 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:46,226 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:46,226 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:46,485 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:46,485 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:46,485 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:46,486 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:46,767 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:46,767 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:46,767 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:46,767 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:47,063 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:47,063 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:47,064 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:47,064 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:47,349 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:47,350 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:47,350 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:47,350 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:47,604 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:47,605 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:47,605 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:47,605 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:47,886 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:47,887 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:47,887 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:47,887 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:48,198 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:48,198 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:48,198 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:48,199 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:48,635 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:48,635 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:48,636 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:48,636 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:48,917 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:48,917 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:48,917 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:48,918 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:49,189 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:49,190 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:49,190 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:49,190 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:49,452 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:49,453 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:49,453 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:49,453 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:49,747 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:49,748 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:49,748 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:49,749 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:50,009 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:50,009 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:50,010 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:50,010 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:50,286 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:50,287 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:50,287 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:50,287 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:50,554 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:50,554 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:50,555 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:50,555 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:50,838 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:50,838 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:50,838 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:50,838 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:51,106 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:51,106 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:51,107 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:51,107 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:51,367 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:51,367 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:51,367 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:51,368 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:51,664 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:51,665 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:51,665 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:51,666 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:51,948 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:51,948 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:51,949 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:51,949 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:52,221 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:52,222 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:52,222 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:52,222 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:52,509 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:52,510 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:52,510 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:52,510 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:52,766 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:52,766 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:52,766 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:52,766 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:53,040 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:53,041 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:53,041 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:53,041 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:53,292 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:53,293 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:53,293 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:53,293 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:53,558 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:53,558 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:53,558 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:53,558 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:53,822 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:53,823 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:53,823 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:53,823 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:54,086 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:54,086 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:54,086 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:54,087 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:54,428 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:54,429 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:54,429 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:54,429 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:54,700 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:54,700 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:54,700 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:54,701 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:54,972 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:54,972 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:54,972 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:54,972 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:55,238 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:55,239 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:55,239 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:55,239 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:55,500 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:55,501 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:55,501 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:55,501 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:55,764 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:55,765 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:55,765 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:55,765 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:56,034 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:56,034 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:56,034 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:56,035 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:56,310 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:56,310 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:56,311 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:56,311 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:56,609 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:56,610 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:56,610 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:56,610 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:56,872 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:56,872 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:56,872 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:56,872 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:57,160 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:57,160 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:57,160 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:57,161 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:57,413 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:57,414 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:57,414 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:57,414 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:57,693 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:57,694 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:57,694 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:57,694 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:57,957 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:57,957 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:57,958 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:57,958 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:58,260 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:58,260 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:58,261 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:58,261 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:58,532 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:58,532 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:58,532 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:58,533 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:58,800 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:58,800 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:58,800 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:58,801 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:59,093 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:59,093 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:59,094 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:59,094 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:59,360 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:59,361 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:59,361 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:59,361 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:59,626 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:59,626 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:59,626 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:59,627 best mean distance error : 0.17511520737327188
+2023-01-04 01:36:59,882 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:36:59,883 best validation accuracy : 92.16589861751152%
+2023-01-04 01:36:59,883 best in range accuracy : 99.07834101382488%
+2023-01-04 01:36:59,884 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:00,155 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:00,155 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:00,155 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:00,156 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:00,434 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:00,434 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:00,434 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:00,435 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:00,700 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:00,701 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:00,701 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:00,701 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:00,962 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:00,962 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:00,962 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:00,963 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:01,222 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:01,223 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:01,223 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:01,223 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:01,499 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:01,499 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:01,499 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:01,500 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:01,771 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:01,771 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:01,771 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:01,772 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:02,057 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:02,057 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:02,057 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:02,057 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:02,448 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:02,448 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:02,449 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:02,449 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:02,725 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:02,725 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:02,725 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:02,726 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:02,984 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:02,984 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:02,985 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:02,985 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:03,268 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:03,268 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:03,268 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:03,269 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:03,521 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:03,521 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:03,522 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:03,522 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:03,778 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:03,778 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:03,779 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:03,779 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:04,048 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:04,048 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:04,048 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:04,048 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:04,518 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:04,518 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:04,519 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:04,519 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:04,822 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:04,822 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:04,823 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:04,823 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:05,088 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:05,089 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:05,089 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:05,089 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:05,369 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:05,369 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:05,369 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:05,370 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:05,654 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:05,654 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:05,654 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:05,655 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:05,914 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:05,915 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:05,915 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:05,915 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:06,198 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:06,199 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:06,199 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:06,199 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:06,487 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:06,488 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:06,488 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:06,488 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:06,765 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:06,766 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:06,766 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:06,766 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:07,047 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:07,047 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:07,048 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:07,048 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:07,336 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:07,336 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:07,336 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:07,336 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:07,626 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:07,627 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:07,627 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:07,627 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:07,886 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:07,886 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:07,886 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:07,887 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:08,157 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:08,158 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:08,158 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:08,158 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:08,429 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:08,429 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:08,430 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:08,430 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:08,698 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:08,698 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:08,698 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:08,699 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:08,973 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:08,973 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:08,974 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:08,974 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:09,255 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:09,256 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:09,256 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:09,256 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:09,526 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:09,526 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:09,526 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:09,527 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:09,805 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:09,806 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:09,806 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:09,806 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:10,071 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:10,071 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:10,071 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:10,072 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:10,333 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:10,333 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:10,334 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:10,334 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:10,615 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:10,616 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:10,616 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:10,616 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:10,873 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:10,874 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:10,874 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:10,874 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:11,136 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:11,137 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:11,137 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:11,137 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:11,405 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:11,405 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:11,405 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:11,406 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:11,669 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:11,669 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:11,669 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:11,670 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:11,954 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:11,954 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:11,955 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:11,955 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:12,243 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:12,244 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:12,244 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:12,245 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:12,512 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:12,513 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:12,513 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:12,513 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:12,799 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:12,799 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:12,800 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:12,800 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:13,058 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:13,059 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:13,059 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:13,059 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:13,327 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:13,328 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:13,328 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:13,328 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:13,588 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:13,589 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:13,589 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:13,589 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:13,916 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:13,916 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:13,917 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:13,917 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:14,189 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:14,189 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:14,189 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:14,190 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:14,466 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:14,466 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:14,466 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:14,467 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:14,729 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:14,729 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:14,729 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:14,730 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:15,001 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:15,002 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:15,002 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:15,002 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:15,268 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:15,268 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:15,268 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:15,269 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:15,555 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:15,555 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:15,555 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:15,555 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:15,826 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:15,826 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:15,826 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:15,827 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:16,104 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:16,105 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:16,105 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:16,105 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:16,361 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:16,361 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:16,362 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:16,362 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:16,631 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:16,632 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:16,632 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:16,632 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:16,891 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:16,891 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:16,891 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:16,891 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:17,161 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:17,161 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:17,162 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:17,162 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:17,445 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:17,446 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:17,446 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:17,446 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:17,715 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:17,715 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:17,715 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:17,716 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:17,990 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:17,991 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:17,991 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:17,991 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:18,272 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:18,272 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:18,272 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:18,273 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:18,524 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:18,524 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:18,524 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:18,525 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:18,805 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:18,805 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:18,805 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:18,806 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:19,084 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:19,085 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:19,085 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:19,085 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:19,357 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:19,357 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:19,357 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:19,358 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:19,635 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:19,635 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:19,635 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:19,635 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:19,893 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:19,894 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:19,894 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:19,894 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:20,181 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:20,181 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:20,182 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:20,182 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:20,454 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:20,454 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:20,455 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:20,455 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:20,732 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:20,733 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:20,733 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:20,733 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:20,992 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:20,993 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:20,993 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:20,993 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:21,250 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:21,251 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:21,251 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:21,251 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:21,513 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:21,514 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:21,514 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:21,514 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:21,781 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:21,781 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:21,782 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:21,782 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:22,038 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:22,039 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:22,039 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:22,039 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:22,333 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:22,333 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:22,333 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:22,334 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:22,695 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:22,696 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:22,696 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:22,696 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:22,962 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:22,963 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:22,963 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:22,963 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:23,299 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:23,299 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:23,300 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:23,300 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:23,563 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:23,563 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:23,564 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:23,564 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:23,848 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:23,848 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:23,848 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:23,848 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:24,152 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:24,152 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:24,152 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:24,153 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:24,636 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:24,636 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:24,637 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:24,637 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:24,903 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:24,903 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:24,904 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:24,904 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:25,170 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:25,170 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:25,170 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:25,171 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:25,440 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:25,440 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:25,441 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:25,441 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:25,736 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:25,736 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:25,737 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:25,737 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:25,984 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:25,984 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:25,985 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:25,985 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:26,239 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:26,239 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:26,239 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:26,240 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:26,550 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:26,550 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:26,551 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:26,551 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:26,810 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:26,810 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:26,810 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:26,811 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:27,076 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:27,076 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:27,077 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:27,077 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:27,360 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:27,360 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:27,360 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:27,361 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:27,643 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:27,644 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:27,644 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:27,645 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:27,906 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:27,906 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:27,906 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:27,907 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:28,187 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:28,187 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:28,187 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:28,188 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:28,475 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:28,475 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:28,476 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:28,476 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:28,751 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:28,751 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:28,751 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:28,752 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:29,015 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:29,015 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:29,015 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:29,016 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:29,267 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:29,267 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:29,267 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:29,268 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:29,545 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:29,545 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:29,546 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:29,546 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:29,805 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:29,806 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:29,806 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:29,806 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:30,086 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:30,087 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:30,087 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:30,087 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:30,357 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:30,357 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:30,357 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:30,358 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:30,641 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:30,642 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:30,642 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:30,642 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:30,928 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:30,929 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:30,929 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:30,929 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:31,220 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:31,221 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:31,221 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:31,221 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:31,500 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:31,500 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:31,501 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:31,501 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:31,813 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:31,813 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:31,813 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:31,814 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:32,141 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:32,141 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:32,142 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:32,142 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:32,423 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:32,423 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:32,423 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:32,423 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:32,700 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:32,701 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:32,701 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:32,701 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:32,993 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:32,993 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:32,993 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:32,994 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:33,258 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:33,258 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:33,258 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:33,259 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:33,526 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:33,526 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:33,526 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:33,527 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:33,803 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:33,803 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:33,804 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:33,804 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:34,063 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:34,063 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:34,064 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:34,064 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:34,335 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:34,335 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:34,335 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:34,335 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:34,605 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:34,605 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:34,605 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:34,606 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:34,865 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:34,865 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:34,865 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:34,865 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:35,125 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:35,126 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:35,126 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:35,127 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:35,412 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:35,412 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:35,413 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:35,413 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:35,688 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:35,688 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:35,688 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:35,689 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:35,959 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:35,960 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:35,960 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:35,960 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:36,229 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:36,229 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:36,230 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:36,230 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:36,507 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:36,508 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:36,508 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:36,508 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:36,778 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:36,778 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:36,778 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:36,779 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:37,035 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:37,036 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:37,036 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:37,036 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:37,311 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:37,311 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:37,311 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:37,312 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:37,588 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:37,589 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:37,589 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:37,589 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:37,860 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:37,860 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:37,861 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:37,861 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:38,132 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:38,132 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:38,133 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:38,133 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:38,408 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:38,409 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:38,409 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:38,409 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:38,681 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:38,682 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:38,682 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:38,683 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:38,941 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:38,942 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:38,942 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:38,942 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:39,219 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:39,219 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:39,220 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:39,220 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:39,587 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:39,588 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:39,588 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:39,588 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:39,854 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:39,854 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:39,855 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:39,855 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:40,118 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:40,119 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:40,119 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:40,119 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:40,390 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:40,390 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:40,391 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:40,391 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:40,653 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:40,654 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:40,654 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:40,654 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:40,920 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:40,920 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:40,920 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:40,921 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:41,193 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:41,193 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:41,194 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:41,194 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:41,464 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:41,464 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:41,465 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:41,465 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:41,726 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:41,726 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:41,726 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:41,727 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:41,994 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:41,994 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:41,995 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:41,995 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:42,273 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:42,274 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:42,274 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:42,274 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:42,556 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:42,557 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:42,557 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:42,557 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:42,831 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:42,831 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:42,832 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:42,832 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:43,109 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:43,110 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:43,110 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:43,110 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:43,368 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:43,369 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:43,369 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:43,369 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:43,667 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:43,668 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:43,668 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:43,668 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:43,918 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:43,918 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:43,918 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:43,919 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:44,302 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:44,302 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:44,302 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:44,303 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:44,698 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:44,698 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:44,698 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:44,699 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:45,021 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:45,022 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:45,022 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:45,022 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:45,366 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:45,366 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:45,367 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:45,367 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:45,686 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:45,686 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:45,686 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:45,687 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:46,007 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:46,007 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:46,008 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:46,008 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:46,323 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:46,323 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:46,324 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:46,324 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:46,610 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:46,611 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:46,611 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:46,611 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:46,923 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:46,923 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:46,924 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:46,924 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:47,302 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:47,303 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:47,303 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:47,303 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:47,641 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:47,642 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:47,642 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:47,642 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:47,978 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:47,979 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:47,979 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:47,980 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:48,267 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:48,267 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:48,268 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:48,268 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:48,555 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:48,555 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:48,555 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:48,556 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:48,825 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:48,825 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:48,826 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:48,826 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:49,093 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:49,093 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:49,094 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:49,094 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:49,391 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:49,392 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:49,392 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:49,392 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:49,670 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:49,670 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:49,670 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:49,671 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:50,020 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:50,021 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:50,021 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:50,022 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:50,325 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:50,325 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:50,325 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:50,325 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:50,589 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:50,589 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:50,590 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:50,590 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:50,854 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:50,854 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:50,855 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:50,855 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:51,119 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:51,119 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:51,119 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:51,120 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:51,387 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:51,387 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:51,387 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:51,388 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:51,669 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:51,670 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:51,670 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:51,670 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:51,942 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:51,943 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:51,943 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:51,944 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:52,229 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:52,229 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:52,230 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:52,230 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:52,503 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:52,503 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:52,504 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:52,504 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:52,775 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:52,776 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:52,776 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:52,776 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:53,052 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:53,052 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:53,052 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:53,053 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:53,322 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:53,322 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:53,323 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:53,323 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:53,589 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:53,589 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:53,590 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:53,590 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:53,860 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:53,860 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:53,861 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:53,861 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:54,152 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:54,152 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:54,152 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:54,152 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:54,536 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:54,536 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:54,537 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:54,537 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:54,825 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:54,826 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:54,826 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:54,826 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:55,098 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:55,098 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:55,098 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:55,098 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:55,362 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:55,362 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:55,362 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:55,363 best mean distance error : 0.17511520737327188
+2023-01-04 01:37:55,641 => saving checkpoint to output\U19e_outdoor0103
+2023-01-04 01:37:55,641 best validation accuracy : 92.16589861751152%
+2023-01-04 01:37:55,641 best in range accuracy : 99.07834101382488%
+2023-01-04 01:37:55,641 best mean distance error : 0.17511520737327188

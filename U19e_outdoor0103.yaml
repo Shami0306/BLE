@@ -1,0 +1,37 @@
+UUID : '0000f22e-0000-1000-8000-00805f9b34fb'
+START_TIME : ['17:05:30', '17:09:30', '17:13:00', '17:17:00', '17:21:00', '17:25:00', '17:30:00', '17:35:00']
+END_TIME : ['17:08:30', '17:12:30', '17:16:00', '17:20:00', '17:24:00', '17:28:00', '17:33:00', '17:38:00']
+LABEL_LIST : [0, 1, 2, 3, 4, 5, 6, 7]
+BEFORE_DIR : './before/U19e_outdoor0103/'
+AFTER_DIR : './after/U19e_outdoor0103/'
+OUTPUT_DIR: 'output'
+FILE : 'sniffer_'
+FILE_TYPE : 'csv'
+OUTPUT_NAME : 'U19e_outdoor0103'
+AP_NUMS : 4
+AP_NAME : ['zero', 'one', 'two', 'three']
+
+MODEL :
+  TYPE : 'LSTM'
+  INIT_WEIGHTS : true
+  PRETRAINED : ''
+  #PRETRAINED : 'output/U19e_outdoor1118/checkpoint.pth'
+  #PRETRAINED : 'output/sharp4025_test2/checkpoint.pth'
+
+TRAIN :
+  BATCH_SIZE : 32
+  SHUFFLE : true
+  BEGIN_EPOCH : 0
+  END_EPOCH : 400
+  OPTIMIZER : adam
+  LR : 0.001
+  LR_FACTOR : 0.1
+
+TEST :
+  #RSSI_LIST : [ [-42, -103], [-54, -96], [-55, -99], [-59, -96]] # U19e
+  #RSSI_LIST : [ [-48, -103], [-52, -95], [-30, -97], [-48, -91]] # Sharp
+  #RSSI_LIST : [ [-38, -96], [-31, -93], [-26, -93], [-29, -97]] # U19e outdoor1 1113 4 sniffer
+  #RSSI_LIST : [ [-44, -95], [-28, -101], [-11, -97], [-28, -96]] # U19e outdoor2 1118 4 sniffer
+  #RSSI_LIST : [[-41, -98], [-30, -102], [-28, -101], [-28, -96], [-30, -98], [-33, -95]] # U19e outdoor3 1201 6 sniffer
+  RSSI_LIST : [ [-40, -102], [-31, -98], [-17, -95], [-28, -95]] # U19e outdoor4 0103 4 sniffer
+
