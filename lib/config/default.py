@@ -1,3 +1,4 @@
+import os
 from yacs.config import CfgNode as CN
 
 _CFG = CN()
@@ -87,10 +88,13 @@ def update_config(cfg, args):
 
     if args.beforeDir:
         cfg.BEFORE_DIR = args.beforeDir
+    elif os.path.basename(os.getcwd()) != 'BLE':
+        cfg.BEFORE_DIR = 'BLE/' + cfg.BEFORE_DIR
 
     if args.afterDir:
         cfg.AFTER_DIR = args.afterDir
-
+    elif os.path.basename(os.getcwd()) != 'BLE':
+        cfg.AFTER_DIR = 'BLE/' + cfg.AFTER_DIR
     # 變為不可更改狀態
     cfg.freeze()
 

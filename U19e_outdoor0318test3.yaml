@@ -1,17 +1,17 @@
 UUID : '0000f22e-0000-1000-8000-00805f9b34fb'
-START_TIME : ['16:34:44', '17:54:29', '17:54:37', '17:54:43', '17:54:49', '17:54:56', '17:55:03', '17:55:08']
-END_TIME : ['17:54:27', '17:54:35', '17:54:40', '17:54:47', '17:54:54', '17:55:00', '17:55:06', '16:35:15']
+START_TIME : ['15:37:06', '17:54:29', '17:54:37', '17:54:43', '17:54:49', '17:54:56', '17:55:03', '17:55:08']
+END_TIME : ['17:54:27', '17:54:35', '17:54:40', '17:54:47', '17:54:54', '17:55:00', '17:55:06', '15:37:21']
 LABEL_LIST : [0, 1, 2, 3, 4, 5, 6, 7]
-BEFORE_DIR : 'before/U19e_outdoor0211/'
-AFTER_DIR : 'after/U19e_outdoor0211test2/'
+BEFORE_DIR : './before/U19e_outdoor0318/'
+AFTER_DIR : './after/U19e_outdoor0318test3/'
 OUTPUT_DIR: 'output'
 FILE : 'sniffer_'
 FILE_TYPE : 'csv'
-OUTPUT_NAME : 'U19e_outdoor0211test2'
+OUTPUT_NAME : 'U19e_outdoor0318test3'
 AP_NUMS : 4
 AP_NAME : ['zero', 'one', 'two', 'three']
 TEST_NO_LABEL : true
-TEST_VIDEO_PATH : './videos/0211test2.mp4'
+TEST_VIDEO_PATH : './videos/0318test3.mp4'
 
 MODEL :
   TYPE : 'LSTM'
