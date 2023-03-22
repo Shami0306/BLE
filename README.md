@@ -39,13 +39,29 @@ python train.py --cfg  .\config\U19e_outdoor0103.yaml
 python test.py --cfg  .\config\U19e_outdoor0103test1.yaml
 ```
 **每次測試不同項目(Loss or video)前皆需重新執行filter_csv.py，確保label欄位正常。**
+### 測試(For Accuracy)
+```
+# 設置為false
+TEST_FOR_VIDEO : false
+```
+
+#### Accuracy and Error
+![image](https://user-images.githubusercontent.com/57833742/226887978-b3848748-7312-4a9c-a99d-6c5441020369.png)
+Top-1 accuracy表示是否ground truth與prediction完全match的準確率。  
+In range accuracy表示是否ground truth落在prediction**前後1格** 範圍內的準確率。  
+Mean Squared Error : 均方誤差。(每個RP距離2m)
+
+
+#### 測試生成的混淆矩陣
+![image](https://user-images.githubusercontent.com/57833742/226887734-5b4f97d7-f44a-4753-95bd-fdb0ad2ee281.png)
+
 
 ### 測試(For Video)
 yaml設定中的時間僅需填寫**開始與結束時間**，中間可以省略不看。
 ```
 START_TIME : ['15:48:10', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx']
 END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
-並且
+# 設置為true
 TEST_FOR_VIDEO : true
 ```
 
