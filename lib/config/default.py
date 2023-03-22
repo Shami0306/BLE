@@ -18,7 +18,7 @@ _CFG.FILE_TYPE = 'csv'
 _CFG.OUTPUT_NAME = ''
 _CFG.AP_NUMS = 4
 _CFG.AP_NAME = ['zero', 'one', 'two', 'three']
-_CFG.TEST_NO_LABEL = False
+_CFG.TEST_FOR_VIDEO = False
 _CFG.TEST_VIDEO_PATH = ''
 
 #BLE
@@ -95,6 +95,8 @@ def update_config(cfg, args):
         cfg.AFTER_DIR = args.afterDir
     elif os.path.basename(os.getcwd()) != 'BLE':
         cfg.AFTER_DIR = 'BLE/' + cfg.AFTER_DIR
+    if os.path.basename(os.getcwd()) != 'BLE':
+        cfg.MODEL.PRETRAINED = 'BLE/' + cfg.MODEL.PRETRAINED
     # 變為不可更改狀態
     cfg.freeze()
 

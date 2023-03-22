@@ -118,10 +118,10 @@ class RSSI_DatasetForTest(data.Dataset):
 
         file_path = os.path.join(cfg.AFTER_DIR + 'test' + '.' + cfg.FILE_TYPE)
         df = pd.read_csv(file_path)
-        self.no_label = cfg.TEST_NO_LABEL
+        self.for_video = cfg.TEST_FOR_VIDEO
 
         # discrete testing with label (approximately)
-        if not self.no_label:
+        if not self.for_video:
             self.label_list = df['label']
             self.rssi_list = df.drop(columns=['time', 'label'])
             self.total_length = len(self.label_list)
@@ -171,7 +171,7 @@ class RSSI_DatasetForTest(data.Dataset):
             # new lists with shape (n+1-t, t, features)
             self.rssi_list = []
             # testing with label (切割時段的方式)
-            if not self.no_label:
+            if not self.for_video:
                 self.old_label_list = self.label_list.copy()
                 self.label_list = []
 
@@ -183,31 +183,26 @@ class RSSI_DatasetForTest(data.Dataset):
                     # most frequent value as label e.g. when t=3 [0,0,1] -> [0] as ground truth
                     self.label_list.append(max(self.old_label_list[i:i+self.T], key=data.get))
             
-            # testing without label (搭配影片的連續判斷方式)
-            # 開頭必須補2秒的rssi list，因為模型input需要3個timestamp的data
-            # rssi list為時間點t-2, t-1, t 的 rssi值組合
             else:
+            # testing without label (搭配影片的連續判斷方式)
+            # 開頭補2秒的rssi list，因為模型input需要3個timestamp的data
+            # rssi list為時間點t-2, t-1, t 的 rssi值組合
                 self.rssi_list.append([self.old_rssi_list[0], self.old_rssi_list[0], self.old_rssi_list[0]])
                 self.rssi_list.append([self.old_rssi_list[0], self.old_rssi_list[0], self.old_rssi_list[1]])
 
-                #print([self.old_rssi_list[0], self.old_rssi_list[0], self.old_rssi_list[0]])
                 for i in range(self.total_length+1-self.T):
                     self.rssi_list.append(self.old_rssi_list[i:i+self.T])
-                #print(np.shape(self.rssi_list))
-                #print(self.rssi_list)
       
         # remove duplicate label and calculate classes
         self.classes = len(list(dict.fromkeys(cfg.START_TIME)))
 
     def __getitem__(self, index):
 
-        if not self.no_label:
-            # MLP
+        if not self.for_video:
             x = torch.tensor(self.rssi_list[index], dtype=torch.float32)
             y = torch.tensor(self.label_list[index], dtype=torch.long)
             return x, y
         else:
-            # MLP
             x = torch.tensor(self.rssi_list[index], dtype=torch.float32)
             return x
 

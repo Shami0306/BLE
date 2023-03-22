@@ -1,0 +1,40 @@
+UUID : '0000f22e-0000-1000-8000-00805f9b34fb'
+START_TIME : ['22:40:02', '22:40:08', '22:40:17', '22:40:25', '22:40:33', '22:40:41', '22:40:48', '22:40:52']
+END_TIME : ['22:40:07', '22:40:16', '22:40:24', '22:40:32', '22:40:40', '22:40:47', '22:40:51', '22:40:58']
+LABEL_LIST : [0, 1, 2, 3, 4, 5, 6, 7]
+BEFORE_DIR : './before/U19e_outdoor1118test/'
+AFTER_DIR : './after/U19e_outdoor1118test1/'
+OUTPUT_DIR: 'output'
+FILE : 'sniffer_'
+FILE_TYPE : 'csv'
+OUTPUT_NAME : 'U19e_outdoor1118test1'
+AP_NUMS : 4
+AP_NAME : ['zero', 'one', 'two', 'three']
+TEST_NO_LABEL : false
+TEST_VIDEO_PATH : './videos/1201test1.mp4'
+
+MODEL :
+  TYPE : '1DCNN'
+  INIT_WEIGHTS : true
+  #PRETRAINED : ''
+  PRETRAINED : 'output/U19e_outdoor0103/checkpoint_1dcnn_t3.pth'
+  #PRETRAINED : 'output/U19e_outdoor1118/checkpoint_lstm.pth'
+  #PRETRAINED : 'output/sharp4025_test2/checkpoint.pth'
+
+TRAIN :
+  BATCH_SIZE : 32
+  SHUFFLE : true
+  BEGIN_EPOCH : 0
+  END_EPOCH : 200
+  OPTIMIZER : adam
+  LR : 0.001
+  LR_FACTOR : 0.1
+
+TEST :
+  #RSSI_LIST : [ [-42, -103], [-54, -96], [-55, -99], [-59, -96]] # U19e
+  #RSSI_LIST : [ [-48, -103], [-52, -95], [-30, -97], [-48, -91]] # Sharp
+  #RSSI_LIST : [ [-38, -96], [-31, -93], [-26, -93], [-29, -97]] # U19e outdoor1 1113 4 sniffer
+  #RSSI_LIST : [ [-44, -95], [-28, -101], [-11, -97], [-28, -96]] # U19e outdoor2 1118 4 sniffer
+  #RSSI_LIST : [[-41, -98], [-30, -102], [-28, -101], [-28, -96], [-30, -98], [-33, -95]] # U19e outdoor3 1201 6 sniffer
+  RSSI_LIST : [ [-40, -102], [-31, -98], [-17, -95], [-28, -95]] # U19e outdoor4 0103 4 sniffer
+

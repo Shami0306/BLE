@@ -45,11 +45,6 @@ def parse_args():
                         type=str,
                         default='')
 
-    parser.add_argument('--mode',
-                        help='Mode of different dataset',
-                        type=str,
-                        default='valid')
-
     parser.add_argument('--video',
                         help='Path of the video',
                         type=str,
@@ -64,11 +59,8 @@ def test(cfg):
     logger, final_output_dir = create_logger(cfg, args.cfg, 'test')
 
     model = get_model(cfg, False)
-    if args.mode == "valid":
-        dataset = RSSI_Dataset(cfg)
-        
-    elif args.mode == "test":
-        dataset = RSSI_DatasetForTest(cfg)
+
+    dataset = RSSI_DatasetForTest(cfg) # 讀test.csv 有label
 
     optimizer = get_optimizer(cfg, model)
     test_loader = torch.utils.data.DataLoader(
@@ -127,18 +119,15 @@ def testOnVideo(cfg):
     logger, final_output_dir = create_logger(cfg, args.cfg, 'test_with_video')
 
     model = get_model(cfg, False)
-    if args.mode == "valid":
-        dataset = RSSI_Dataset(cfg)
-        
-    elif args.mode == "test":
-        dataset = RSSI_DatasetForTest(cfg)
+
+    dataset = RSSI_DatasetForTest(cfg) # 讀 test.csv 沒label
 
     optimizer = get_optimizer(cfg, model)
-    test_loader = torch.utils.data.DataLoader(
-        dataset,
-        batch_size=1,
-        shuffle=False
-    )
+    # test_loader = torch.utils.data.DataLoader(
+    #     dataset,
+    #     batch_size=1,
+    #     shuffle=False
+    # )
     checkpoint_file = os.path.join(
         cfg.MODEL.PRETRAINED
     )
@@ -151,18 +140,8 @@ def testOnVideo(cfg):
 
     # testing
     model.eval()
-    top1_acc = 0
-    # range -1~+1
-    topk_acc = 0
-    # mean distance error
-    mde_loss = 0
-    # distance of each block 
-    distance = 2
-    total_test = 0
     k = 1
     pf = ParticleFilter(cfg)
-    y_pred = []
-    y_true = []
     test_id = 0
 
     # set width and height
@@ -194,7 +173,7 @@ def testOnVideo(cfg):
                 # get top-k result
                 _, maxk = torch.topk(y_test, k, dim=-1)
                 # run particle filter
-                maxk = pf.update(y_test)
+                #maxk = pf.update(y_test)
                 # get value
                 block_id = maxk[0][0].item()
                 #print(block_id)
@@ -260,7 +239,7 @@ if __name__ == '__main__':
     args = parse_args()
     update_config(cfg, args)
 
-    if not cfg.TEST_NO_LABEL:
+    if not cfg.TEST_FOR_VIDEO:
         test(cfg)
     else:
         testOnVideo(cfg)

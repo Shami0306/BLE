@@ -25,6 +25,7 @@ def RSSINormalizeForTest(cfg, df, ap):
     
     return df
     
+# For training and validation
 def GetData(cfg, is_train=False):
     try :
         if len(cfg.START_TIME) != len(cfg.END_TIME) :
@@ -75,111 +76,8 @@ def GetData(cfg, is_train=False):
 
     except ValueError as msg:
         print(msg)
- 
-def GetPhoneData(cfg, is_train=False):
-    try :
-        if len(cfg.START_TIME) != len(cfg.END_TIME) :
-            raise ValueError('Error : Start time list length is not equal to End time list')
-
-        # save each dataframe of sniffers
-        before_list = []
-        for id in range(cfg.AP_NUMS):
-            input_path = os.path.join(cfg.BEFORE_DIR + cfg.FILE + cfg.AP_NAME[id] +'.'+ cfg.FILE_TYPE)
-            df = pd.read_csv(input_path)
-            before_list.append(df)
-
-        # generate final results
-        for t in range(len(cfg.START_TIME)):
-            block_count = 0
-            output_path = os.path.join(cfg.AFTER_DIR + 'block_' + str(t+1)  + '.' + cfg.FILE_TYPE)
-
-            if os.path.isfile(output_path):
-                os.remove(output_path)
-
-            mergedata = PhoneDataFilter(cfg, before_list[0], t, 0, is_train)
-
-            #mergedata.columns = columns
-            for j in range(1, cfg.AP_NUMS): 
-                # how = 'outer' means A union B
-                mergedata = pd.merge(mergedata, PhoneDataFilter(cfg, before_list[j], t, j, is_train), on='Timestamp', how='outer')
-                mergedata = mergedata.sort_values(by='Timestamp')
-
-            # new column names
-            columns = ['time']
-            for id in range(cfg.AP_NUMS):
-                columns.append(cfg.FILE + cfg.AP_NAME[id])
-            
-            mergedata.columns = columns
-
-            # change type from object to float
-            mergedata[columns[1:]] = mergedata[columns[1:]].astype(str).astype(float)
-            # set limit_direction as 'both' to avoid first or last value is NaN 
-            mergedata[columns[1:]] = mergedata[columns[1:]].interpolate(axis=0, limit_direction='both')
-
-            mergedata['label'] = int(cfg.LABEL_LIST[t])
-            block_count += len(mergedata)
-            print(f'Block {t+1} length is : {block_count}')
-            mergedata.to_csv(output_path, mode='a', header=not os.path.isfile(output_path), date_format='%H:%M:%S', index = False)
-
-    except ValueError as msg:
-        print(msg)
-
-def DataFilter(cfg, df, t, ap, is_train):
-    df = df.loc[(df.uuid == cfg.UUID)]
-    df = df[['time', 'RSSI']]
-    # remove decimal point part
-    df['time'] = df['time'].str.split('.', expand=True)[0]
-    # filter value in specific time range
-    timeindex = pd.DatetimeIndex(df['time'])
-    if is_train:
-        df = RSSINormalize(df, ap)
-    else:
-        df = RSSINormalizeForTest(cfg, df, ap)
-    df = df.iloc[timeindex.indexer_between_time(cfg.START_TIME[t], cfg.END_TIME[t])]
-    return df
-
-# use mobile phone as a sniffer
-def PhoneDataFilter(cfg, df, t, ap, is_train):
-    df = df.loc[(df['Device Name'] == cfg.DEVICE_NAME)]
-    df = df[['Timestamp', 'RSSI']]
-    df['Timestamp'] = [new_t[:-4] for new_t in df['Timestamp']]
-    # filter value in specific time range
-    timeindex = pd.DatetimeIndex(df['Timestamp'])
-    if is_train:
-        df = RSSINormalize(df, ap)
-    else:
-        df = RSSINormalizeForTest(cfg, df, ap)
-    df = df.iloc[timeindex.indexer_between_time(cfg.START_TIME[t], cfg.END_TIME[t])]
-    return df
-
-def DataFilterNoLabel(cfg, df, ap, is_train):
-    df = df.loc[(df.uuid == cfg.UUID)]
-    df = df[['time', 'RSSI']]
-    # remove decimal point part
-    df['time'] = df['time'].str.split('.', expand=True)[0]
-    # filter value in specific time range
-    timeindex = pd.DatetimeIndex(df['time'])
-    if is_train:
-        df = RSSINormalize(df, ap)
-    else:
-        df = RSSINormalizeForTest(cfg, df, ap)
-    df = df.iloc[timeindex.indexer_between_time(cfg.START_TIME[0], cfg.END_TIME[-1])]
-    return df
-
-# get mean 
-def GetMeanData(df):
-    # save new result
-    new_df = pd.DataFrame()
-    # get unique time index
-    uni_index = df['time'].unique()
-    #print(uni_index)
-
-    for i, time in enumerate(uni_index):
-        #print(df[df['time'] == uni_index[i]]['RSSI'].mean(axis=0))
-        new_df = new_df.append({'time': time, 'RSSI': df[df['time'] == uni_index[i]]['RSSI'].mean(axis=0)}, ignore_index=True)
-    return new_df
-
-
+        
+# For testing (accuracy)
 def GetTestData(cfg):
     try :
         if len(cfg.START_TIME) != len(cfg.END_TIME) :
@@ -247,60 +145,8 @@ def GetTestData(cfg):
     except ValueError as msg:
         print(msg)
 
-
-def GetPhoneTestData(cfg):
-    try :
-        if len(cfg.START_TIME) != len(cfg.END_TIME) :
-            raise ValueError('Error : Start time list length is not equal to End time list')
-
-        # save each dataframe of sniffers
-        before_list = []
-        for id in range(cfg.AP_NUMS):
-            input_path = os.path.join(cfg.BEFORE_DIR + cfg.FILE + cfg.AP_NAME[id] +'.'+ cfg.FILE_TYPE)
-            df = pd.read_csv(input_path)
-            before_list.append(df)
-
-
-        output_path = os.path.join(cfg.AFTER_DIR + 'test' + '.' + cfg.FILE_TYPE)
-
-        if os.path.isfile(output_path):
-            os.remove(output_path)
-
-        total_count = 0
-
-        for t in range(len(cfg.START_TIME)):
-
-            mergedata = DataFilter(cfg, before_list[0], t, 0, False)
-            for j in range(1, cfg.AP_NUMS): 
-                # how = 'outer' means A union B
-                df2 = DataFilter(cfg, before_list[j], t, j, False)
-                mergedata = pd.merge(mergedata, df2, on='time', how='outer')
-                mergedata = mergedata.sort_values(by='time')
-                
-            #print(mergedata)
-            # new column names
-            columns = ['time']
-            for id in range(cfg.AP_NUMS):
-                columns.append(cfg.FILE + cfg.AP_NAME[id])
-            
-            mergedata.columns = columns
-
-            # change type from object to float
-            #print(mergedata[columns[1:]].astype(str))
-            mergedata[columns[1:]] = mergedata[columns[1:]].astype(str).astype(float)
-            # set limit_direction as 'both' to avoid first or last value is NaN 
-            mergedata[columns[1:]] = mergedata[columns[1:]].interpolate(axis=0, limit_direction='both')
-
-
-            mergedata['label'] = int(cfg.LABEL_LIST[t])
-            total_count += len(mergedata)
-            mergedata.to_csv(output_path, mode='a', header=not os.path.isfile(output_path), date_format='%H:%M:%S', index = False)
-
-
-    except ValueError as msg:
-        print(msg)
-
-def GetTestDataNoLabel(cfg):
+# For testing (video)
+def GetTestDataForVideo(cfg):
     try :
         if len(cfg.START_TIME) != len(cfg.END_TIME) :
             raise ValueError('Error : Start time list length is not equal to End time list')
@@ -356,6 +202,46 @@ def GetTestDataNoLabel(cfg):
         print(msg)
 
 
+def DataFilter(cfg, df, t, ap, is_train):
+    df = df.loc[(df.uuid == cfg.UUID)]
+    df = df[['time', 'RSSI']]
+    # remove decimal point part
+    df['time'] = df['time'].str.split('.', expand=True)[0]
+    # filter value in specific time range
+    timeindex = pd.DatetimeIndex(df['time'])
+    if is_train:
+        df = RSSINormalize(df, ap)
+    else:
+        df = RSSINormalizeForTest(cfg, df, ap)
+    df = df.iloc[timeindex.indexer_between_time(cfg.START_TIME[t], cfg.END_TIME[t])]
+    return df
+
+def DataFilterNoLabel(cfg, df, ap, is_train):
+    df = df.loc[(df.uuid == cfg.UUID)]
+    df = df[['time', 'RSSI']]
+    # remove decimal point part
+    df['time'] = df['time'].str.split('.', expand=True)[0]
+    # filter value in specific time range
+    timeindex = pd.DatetimeIndex(df['time'])
+    if is_train:
+        df = RSSINormalize(df, ap)
+    else:
+        df = RSSINormalizeForTest(cfg, df, ap)
+    df = df.iloc[timeindex.indexer_between_time(cfg.START_TIME[0], cfg.END_TIME[-1])]
+    return df
+
+# get mean 
+def GetMeanData(df):
+    # save new result
+    new_df = pd.DataFrame()
+    # get unique time index
+    uni_index = df['time'].unique()
+    #print(uni_index)
+
+    for i, time in enumerate(uni_index):
+        #print(df[df['time'] == uni_index[i]]['RSSI'].mean(axis=0))
+        new_df = new_df.append({'time': time, 'RSSI': df[df['time'] == uni_index[i]]['RSSI'].mean(axis=0)}, ignore_index=True)
+    return new_df
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Preprocess the csv and label')
@@ -364,11 +250,6 @@ def parse_args():
     parser.add_argument('--cfg',
                         help='Configure file of the csv ',
                         required=True,
-                        type=str)
-    parser.add_argument('--type',
-                        help='Sniffer is Rasberry Pi or Phone',
-                        required=True,
-                        default='pi',
                         type=str)
     # optional
                         
@@ -398,23 +279,14 @@ def main():
     if not output_dir.exists():
         print('=> creating {}'.format(output_dir))
         output_dir.mkdir()
-    # filtering data (rasberry pi or phone)
-    if arg.type == "pi":
-        # for training and validation
-        if arg.mode != "test":
-            GetData(cfg,"train" == arg.mode)
-        # Generate test.csv for testing
-        elif not cfg.TEST_NO_LABEL:
-            GetTestData(cfg)
-        else:
-            GetTestDataNoLabel(cfg)
-    elif arg.type == "phone":
-        # for training and validation
-        if arg.mode != "test":
-            GetPhoneData(cfg,"train" == arg.mode)
-        # Generate test.csv for testing
-        else:
-            GetPhoneTestData(cfg)
+    # for training and validation (train.py)
+    if arg.mode != "test":
+        GetData(cfg,"train" == arg.mode) # 產生8個Blocks csv
+    # Generate test.csv for testing (test.py)
+    elif not cfg.TEST_FOR_VIDEO:
+        GetTestData(cfg) # 產生test.csv 有label
+    else:
+        GetTestDataForVideo(cfg) # 產生test.csv 沒label
 
 if __name__ == '__main__':
     main()
