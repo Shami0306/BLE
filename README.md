@@ -50,7 +50,7 @@ END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
 ### RSSI Matching結果
 ![image](https://user-images.githubusercontent.com/57833742/226885060-567b7cb6-0f53-4989-bfc5-cff3c2ab20fa.png)
 
-畫面中紅色框框是**無線訊號(BLE)**定位後，轉換到影像上的相對位置。  
+畫面中紅色框框是 **無線訊號(BLE)** 定位後，轉換到影像上的相對位置。  
 黑色框框範圍是導盲磚的監控感測範圍，人物進入範圍內才會被偵測並判斷畫面中哪個人是用戶。
 
 
