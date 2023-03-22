@@ -47,7 +47,7 @@ START_TIME : ['15:48:10', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx']
 END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
 ```
 
-### RSSI Matching結果
+### RSSI Matching
 ![image](https://user-images.githubusercontent.com/57833742/226885060-567b7cb6-0f53-4989-bfc5-cff3c2ab20fa.png)
 
 畫面中紅色框框是 **無線訊號(BLE)** 定位後，轉換到影像上的相對位置。  
