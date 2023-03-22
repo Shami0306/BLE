@@ -42,7 +42,10 @@ python test.py --cfg  .\config\U19e_outdoor0103test1.yaml
 
 ### 測試(Video)
 yaml設定中的時間僅需填寫**開始與結束時間**，中間可以省略不看。
-![image](https://user-images.githubusercontent.com/57833742/226884032-45db28a4-bc72-483b-8f93-cd7b5f9e0928.png)
+```
+START_TIME : ['15:48:10', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx']
+END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
+```
 
 ### RSSI Matching結果
 ![image](https://user-images.githubusercontent.com/57833742/226885060-567b7cb6-0f53-4989-bfc5-cff3c2ab20fa.png)
