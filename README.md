@@ -40,11 +40,13 @@ python test.py --cfg  .\config\U19e_outdoor0103test1.yaml
 ```
 **每次測試不同項目(Loss or video)前皆需重新執行filter_csv.py，確保label欄位正常。**
 
-### 測試(Video)
+### 測試(For Video)
 yaml設定中的時間僅需填寫**開始與結束時間**，中間可以省略不看。
 ```
 START_TIME : ['15:48:10', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx']
 END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
+並且
+TEST_FOR_VIDEO : true
 ```
 
 ### RSSI Matching
