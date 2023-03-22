@@ -45,8 +45,8 @@ python test.py --cfg  .\config\U19e_outdoor0103test1.yaml
 TEST_FOR_VIDEO : false
 ```
 
-#### Accuracy and Error
-![image](https://user-images.githubusercontent.com/57833742/226887978-b3848748-7312-4a9c-a99d-6c5441020369.png)
+#### Accuracy and Error  
+![image](https://user-images.githubusercontent.com/57833742/226887978-b3848748-7312-4a9c-a99d-6c5441020369.png)  
 Top-1 accuracy表示是否ground truth與prediction完全match的準確率。  
 In range accuracy表示是否ground truth落在prediction**前後1格** 範圍內的準確率。  
 Mean Squared Error : 均方誤差。(每個RP距離2m)
