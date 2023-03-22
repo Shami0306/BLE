@@ -19,7 +19,9 @@ python filter_csv.py --cfg yaml路徑 --mode train
 python filter_csv.py --cfg yaml路徑 --mode test
 ```
 **注意** 根據yaml中TEST_FOR_VIDEO設定  
-如果TEST_FOR_VIDEO為**False**，則在目標資料下生成一個test.csv檔案，除了各個sniffer的rssi數值，也保留了label。  
+  
+如果TEST_FOR_VIDEO為**False**，則在目標資料下生成一個test.csv檔案，除了各個sniffer的rssi數值，**也保留了label**。  
+
 如果TEST_FOR_VIDEO為**True**，則在目標資料下生成一個test.csv檔案，僅有各個sniffer的rssi數值，**沒有label**。  
 
 
