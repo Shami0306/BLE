@@ -38,6 +38,6 @@ python train.py --cfg  .\config\U19e_outdoor0103.yaml
 ```
 python test.py --cfg  .\config\U19e_outdoor0103test1.yaml
 ```
-**每次測試不同項目(Loss or video)前皆需重新執行filter_csv.py，確保label欄位正常。
+**每次測試不同項目(Loss or video)前皆需重新執行filter_csv.py，確保label欄位正常。**
 
 
