@@ -40,4 +40,14 @@ python test.py --cfg  .\config\U19e_outdoor0103test1.yaml
 ```
 **每次測試不同項目(Loss or video)前皆需重新執行filter_csv.py，確保label欄位正常。**
 
+### 測試(Video)
+yaml設定中的時間僅需填寫**開始與結束時間**，中間可以省略不看。
+![image](https://user-images.githubusercontent.com/57833742/226884032-45db28a4-bc72-483b-8f93-cd7b5f9e0928.png)
+
+### RSSI Matching結果
+![image](https://user-images.githubusercontent.com/57833742/226885060-567b7cb6-0f53-4989-bfc5-cff3c2ab20fa.png)
+
+畫面中紅色框框是**無線訊號(BLE)**定位後，轉換到影像上的相對位置。  
+黑色框框範圍是導盲磚的監控感測範圍，人物進入範圍內才會被偵測並判斷畫面中哪個人是用戶。
+
 
