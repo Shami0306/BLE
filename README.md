@@ -1,6 +1,6 @@
 # BLE for RSSI Matching
 ## Introduction  
-該專案用於使用低功耗藍芽(BLE)進行Fingerprinting定位法的實作，包含資料前處理、模型訓練以及測試結果。
+該專案用於使用低功耗藍芽(BLE)進行Fingerprinting定位法的實作，包含資料前處理、模型訓練以及測試結果。  
 最終用於**判斷監視器影像中用戶與裝置之間的對應**。
 
 ### 檔案說明  
