@@ -33,21 +33,29 @@ class RSSI_Dataset(data.Dataset):
             df = pd.read_csv(file_path)
             df = df[:self.total_length]
 
-            self.label_list = pd.concat([self.label_list, df['label']])
+            self.label_list = pd.concat([self.label_list, df['label']], ignore_index=True)
             df = df.drop(columns=['time', 'label'])
-            self.rssi_list = pd.concat([self.rssi_list, df])
-            
+            self.rssi_list = pd.concat([self.rssi_list, df], ignore_index=True)
+ 
+        # 隨機將rssi設為0，模擬故障情況
+        # fault = 0.3
+        # for i in range(len(self.rssi_list)):
+        #     if np.random.rand() < fault:
+        #         cols = ['sniffer_zero','sniffer_one', 'sniffer_two', 'sniffer_three']
+        #         col = np.random.choice(cols, 1, p=[0.25, 0.25, 0.25, 0.25])[0]
+        #         self.rssi_list.loc[i, col] = 0
+
         self.total_length = len(self.rssi_list)
         self.label_list = self.label_list.to_numpy()
         self.rssi_list = self.rssi_list.to_numpy()
         self.classes = len(cfg.START_TIME)  
-
         if cfg.MODEL.TYPE == "DNN":
             pass
         elif cfg.MODEL.TYPE == "1DCNN":
             # change shape (n, features) -> (n/t , t, features)
             # timestamp = 1
-            self.T = 1
+            # self.T = 1
+            self.T = 3
             # save old lists
             self.old_rssi_list = self.rssi_list.copy()
             self.old_label_list = self.label_list.copy()
@@ -138,7 +146,8 @@ class RSSI_DatasetForTest(data.Dataset):
         elif cfg.MODEL.TYPE == "1DCNN":
             # change shape (n, features) -> (n+1-t , t, features)
             # timestamp = 1
-            self.T = 1
+            # self.T = 1
+            self.T = 3
             # save old lists
             self.old_rssi_list = self.rssi_list.copy()
             self.old_label_list = self.label_list.copy()

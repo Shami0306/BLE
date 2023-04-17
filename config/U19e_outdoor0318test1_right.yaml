@@ -17,7 +17,7 @@ MODEL :
   TYPE : 'LSTM'
   INIT_WEIGHTS : true
   #PRETRAINED : ''
-  PRETRAINED : 'output/U19e_outdoor0103/checkpoint_lstm5.pth'
+  PRETRAINED : 'output/U19e_outdoor0103/checkpoint_lstm5_fine_tune.pth'
   #PRETRAINED : 'output/U19e_outdoor1118/checkpoint_lstm.pth'
   #PRETRAINED : 'output/sharp4025_test2/checkpoint.pth'
   # --------MEBOW--------

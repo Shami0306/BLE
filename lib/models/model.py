@@ -14,16 +14,7 @@ class DNN_Net(nn.Module):
 
         self.in_dimension = cfg.AP_NUMS
         self.out_dimension = 8
-
-        # self.dnn = nn.Sequential(
-        #     nn.LazyLinear(32),
-        #     nn.BatchNorm1d(32),
-        #     nn.ReLU(True),
-        #     nn.Linear(32,16),
-        #     nn.BatchNorm1d(16),
-        #     nn.ReLU(True),
-        #     nn.Linear(16, self.out_dimension),
-        # )
+        
         self.dnn = nn.Sequential(
             nn.LazyLinear(32),
             nn.LazyBatchNorm1d(),
@@ -154,7 +145,7 @@ class LSTM_Net(nn.Module):
         x = x.permute(1,0,2)
         x ,(hn,cn) = self.lstm(x)
         # lstm 6
-        #x ,(hn,cn) = self.lstm2(x)
+        # x ,(hn,cn) = self.lstm2(x)
         x = self.classifier(x[-1])
         x = F.softmax(x, dim=1)
         return x
