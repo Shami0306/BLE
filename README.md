@@ -1,5 +1,8 @@
 # BLE for RSSI Matching
+## Introduction  
+該專案用於使用低功耗藍芽(BLE)進行Fingerprinting定位法的實作，包含資料前處理、模型訓練以及測試結果。
 
+### 檔案說明  
 before&after目錄 : 存放未經處理&處理過後的藍芽RSSI資料  
 
 ouput目錄 : model訓練完的參數檔及log檔  
@@ -32,6 +35,7 @@ python filter_csv.py --cfg yaml路徑 --mode test
 ```
 python train.py --cfg  .\config\U19e_outdoor0103.yaml
 ```
+訓練完的權重會儲存於yaml中OUTPUT_DIR的路徑下(對應OUTPUT_NAME的目錄中)。  
 
 ### 測試
 
@@ -46,10 +50,12 @@ TEST_FOR_VIDEO : false
 ```
 
 #### Accuracy and Error  
-![image](https://user-images.githubusercontent.com/57833742/226887978-b3848748-7312-4a9c-a99d-6c5441020369.png)  
+![image](https://user-images.githubusercontent.com/57833742/232435412-7e722af3-88a8-457b-a6f3-a81beb195944.png)
+
 Top-1 accuracy表示是否ground truth與prediction完全match的準確率。  
 In range accuracy表示是否ground truth落在prediction**前後1格** 範圍內的準確率。  
-Mean Squared Error : 均方誤差。(每個RP距離2m)
+Mean Distance Error : 平均距離差。(每個Reference Point距離2m，Size為2x2) 
+
 
 
 #### 測試生成的混淆矩陣
