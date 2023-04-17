@@ -4,17 +4,25 @@
 最終用於**判斷監視器影像中用戶與裝置之間的對應**。
 
 ### 檔案說明  
-before&after目錄 : 存放未經處理&處理過後的藍芽RSSI資料  
+before&after目錄 : 存放未經處理&處理過後的藍芽RSSI資料。  
 
-ouput目錄 : model訓練完的參數檔及log檔  
+ouput目錄 : model訓練完的參數檔及log檔。  
 
-init_paths.py : 用來設置系統路徑的檔案  
+videos目錄 : 存放監視器影像。 
+
+init_paths.py : 用來設置系統路徑的檔案。  
 
 filter_csv.py : 用於資料前處理的程式。  
 
 train.py : 用於訓練深度模型的程式。  
 
-test.py : 用於測試模型的程式，可選擇查看數據或是影像。
+test.py : 用於測試模型的程式，可選擇查看數據或是影像。  
+
+lib/config/default.py : 定義預設設定檔的程式，所有訓練以及測試的yaml檔案內容皆須對照此程式中的格式撰寫。  
+
+lib/datasets/snifferdata.py : 定義訓練&測試用的資料集讀取、處理規則。  
+
+lib/models/model.py : 定義神經網路模型的程式。  
 
 ### 資料前處理  
 
