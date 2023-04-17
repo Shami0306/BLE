@@ -56,11 +56,10 @@ python test.py --cfg  .\config\U19e_outdoor0103test1.yaml
 
 ### 測試(For Accuracy)  
 
-yaml設定中的時間需填寫**各個Block的開始與結束時間**，每個Block時段之間可以不連續，只取出**可明確標註**的區間即可。
+yaml設定中的時間需填寫**各個Block的開始與結束時間**，每個Block時段之間可以不連續，只取出**可明確標註**的區間即可。  
 ```
 START_TIME : ['15:48:10', '15:48:18',..., '15:48:30']
 END_TIME : ['15:48:14', '15:48:24',..., '15:48:35']
-```  
 # 設置為false
 TEST_FOR_VIDEO : false
 ```
@@ -79,17 +78,21 @@ Mean Distance Error : 平均距離差。(每個Reference Point距離2m，Size為
 ### 測試(For Video)  
 yaml設定中的時間僅需填寫**開始與結束時間**，中間可以省略不看。  
 ```
-START_TIME : ['15:48:10', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx']
-END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
+START_TIME : ['15:48:10', 'xxx',..., 'xxx']
+END_TIME : ['xxx', 'xxx',..., '15:48:28']
 # 設置為true
 TEST_FOR_VIDEO : true
 ```
 
 ### RSSI Matching  
 ![image](https://user-images.githubusercontent.com/57833742/226885060-567b7cb6-0f53-4989-bfc5-cff3c2ab20fa.png)  
+影片連結: https://youtu.be/x0qNx-rAIQw  
 
 以上為實際運行時的結果。  
 畫面中紅色框框是 **無線訊號(BLE)** 定位後，轉換到影像上的相對位置。  
 黑色框框範圍是導盲磚的監控感測範圍，人物進入範圍內才會被偵測並判斷畫面中哪個人是用戶。  
+
+隨著用戶移動，紅色框框也因接收到的RSSI值不同而及時變化，達到用戶追蹤的效果。
+
 
 
