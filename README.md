@@ -55,11 +55,12 @@ python test.py --cfg  .\config\U19e_outdoor0103test1.yaml
 **建議每次測試不同項目前皆重新執行filter_csv.py，確保label欄位的有無。**
 
 ### 測試(For Accuracy)  
+
 yaml設定中的時間需填寫**各個Block的開始與結束時間**，每個Block時段之間可以不連續，只取出**可明確標註**的區間即可。
 ```
 START_TIME : ['15:48:10', '15:48:18',..., '15:48:30']
 END_TIME : ['15:48:14', '15:48:24',..., '15:48:35']
-```
+```  
 # 設置為false
 TEST_FOR_VIDEO : false
 ```
@@ -71,12 +72,12 @@ Top-1 accuracy表示是否ground truth與prediction完全match的準確率。
 In range accuracy表示是否ground truth落在prediction**前後1格** 範圍內的準確率。  
 Mean Distance Error : 平均距離差。(每個Reference Point距離2m，Size為2x2) 
 
-#### 測試生成的混淆矩陣
+#### 測試生成的混淆矩陣  
 ![image](https://user-images.githubusercontent.com/57833742/226887734-5b4f97d7-f44a-4753-95bd-fdb0ad2ee281.png)
 
 
-### 測試(For Video)
-yaml設定中的時間僅需填寫**開始與結束時間**，中間可以省略不看。
+### 測試(For Video)  
+yaml設定中的時間僅需填寫**開始與結束時間**，中間可以省略不看。  
 ```
 START_TIME : ['15:48:10', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx']
 END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
@@ -84,11 +85,11 @@ END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
 TEST_FOR_VIDEO : true
 ```
 
-### RSSI Matching
-![image](https://user-images.githubusercontent.com/57833742/226885060-567b7cb6-0f53-4989-bfc5-cff3c2ab20fa.png)
+### RSSI Matching  
+![image](https://user-images.githubusercontent.com/57833742/226885060-567b7cb6-0f53-4989-bfc5-cff3c2ab20fa.png)  
 
 以上為實際運行時的結果。  
 畫面中紅色框框是 **無線訊號(BLE)** 定位後，轉換到影像上的相對位置。  
-黑色框框範圍是導盲磚的監控感測範圍，人物進入範圍內才會被偵測並判斷畫面中哪個人是用戶。
+黑色框框範圍是導盲磚的監控感測範圍，人物進入範圍內才會被偵測並判斷畫面中哪個人是用戶。  
 
 
