@@ -8,7 +8,9 @@ before&after目錄 : 存放未經處理&處理過後的藍芽RSSI資料。
 
 ouput目錄 : model訓練完的參數檔及log檔。  
 
-videos目錄 : 存放監視器影像。 
+config目錄 : 存放yaml設定檔。  
+
+videos目錄 : 存放監視器影像。  
 
 init_paths.py : 用來設置系統路徑的檔案。  
 
