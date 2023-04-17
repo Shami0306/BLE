@@ -46,9 +46,12 @@ python filter_csv.py --cfg yaml路徑 --mode test
 
 如果TEST_FOR_VIDEO為**True**，則在目標資料下生成一個test.csv檔案，僅有各個sniffer的rssi數值，**沒有label**。  
 
-**注意**  
+### 注意事項  
 
 請為每個訓練或測試用的資料各自建立yaml檔案。  
+
+若要測試不同Timestamp的模型，例如先測試1D-CNN(T=1)後，欲測試1D-CNN(T=3)，務必將snifferdata.py中1D-CNN部分的T變數進行更改。
+
 
 ### 訓練
 
