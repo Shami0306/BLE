@@ -9,6 +9,11 @@ ouput目錄 : model訓練完的參數檔及log檔
 
 init_paths.py : 用來設置系統路徑的檔案  
 
+filter_csv.py : 用於資料前處理的程式。  
+
+train.py : 用於訓練深度模型的程式。  
+
+test.py : 用於測試模型的程式，可選擇查看數據或是影像。
 
 ### 資料前處理  
 
