@@ -47,6 +47,10 @@ def GetData(cfg, is_train=False):
 
             mergedata = DataFilter(cfg, before_list[0], t, 0, is_train)
             mergedata = GetMeanData(mergedata)
+
+            columns = ['time']
+            columns.append(cfg.FILE + cfg.AP_NAME[0])
+            mergedata.columns = columns
             
             #mergedata.columns = columns
             for j in range(1, cfg.AP_NUMS): 
@@ -56,13 +60,9 @@ def GetData(cfg, is_train=False):
 
                 mergedata = pd.merge(mergedata, to_merge, on='time', how='outer')
                 mergedata = mergedata.sort_values(by='time')
-
-            # new column names
-            columns = ['time']
-            for id in range(cfg.AP_NUMS):
-                columns.append(cfg.FILE + cfg.AP_NAME[id])
-            
-            mergedata.columns = columns
+                # new column names
+                columns.append(cfg.FILE + cfg.AP_NAME[j])
+                mergedata.columns = columns
 
             # change type from object to float
             mergedata[columns[1:]] = mergedata[columns[1:]].astype(str).astype(float)
@@ -97,34 +97,31 @@ def GetTestData(cfg):
             os.remove(output_path)
 
         total_count = 0
-        use_testing2 = False
         for t in range(len(cfg.START_TIME)):
 
             mergedata = DataFilter(cfg, before_list[0], t, 0, False)
             mergedata = GetMeanData(mergedata)
             # reverse when using testing 2
-            mergedata = mergedata.sort_values(['time'], ascending= not use_testing2)
+            mergedata = mergedata.sort_values(['time'])
+
+            columns = ['time']
+            columns.append(cfg.FILE + cfg.AP_NAME[0])
+            mergedata.columns = columns
 
             for j in range(1, cfg.AP_NUMS): 
                 # how = 'outer' means A union B
                 to_merge = DataFilter(cfg, before_list[j], t, j, False)
                 to_merge = GetMeanData(to_merge)
                 # reverse when using testing 2
-                to_merge = to_merge.sort_values(['time'], ascending= not use_testing2)
+                to_merge = to_merge.sort_values(['time'])
                 mergedata = pd.merge(mergedata, to_merge, on='time', how='outer')
                 # ascending is False when using testing 2
-                mergedata = mergedata.sort_values(by='time', ascending= not use_testing2)
+                mergedata = mergedata.sort_values(by='time')
+                # new column names
+                columns.append(cfg.FILE + cfg.AP_NAME[j])
+                mergedata.columns = columns
                 
-            #print(mergedata)
-            # new column names
-            columns = ['time']
-            for id in range(cfg.AP_NUMS):
-                columns.append(cfg.FILE + cfg.AP_NAME[id])
-            
-            mergedata.columns = columns
-
             # change type from object to float
-            #print(mergedata[columns[1:]].astype(str))
             mergedata[columns[1:]] = mergedata[columns[1:]].astype(str).astype(float)
             # set limit_direction as 'both' to avoid first or last value is NaN 
             mergedata[columns[1:]] = mergedata[columns[1:]].interpolate(axis=0, limit_direction='both')
@@ -170,6 +167,10 @@ def GetTestDataForVideo(cfg):
         mergedata = GetMeanData(mergedata)
         mergedata = mergedata.sort_values(['time'])
 
+        columns = ['time']
+        columns.append(cfg.FILE + cfg.AP_NAME[0])
+        mergedata.columns = columns
+
         for j in range(1, cfg.AP_NUMS): 
             # how = 'outer' means A union B
             to_merge = DataFilterNoLabel(cfg, before_list[j], j, False)
@@ -177,14 +178,9 @@ def GetTestDataForVideo(cfg):
 
             mergedata = pd.merge(mergedata, to_merge, on='time', how='outer')
             mergedata = mergedata.sort_values(by='time')
+            columns.append(cfg.FILE + cfg.AP_NAME[j])
+            mergedata.columns = columns
             
-        #print(mergedata)
-        # new column names
-        columns = ['time']
-        for id in range(cfg.AP_NUMS):
-            columns.append(cfg.FILE + cfg.AP_NAME[id])
-        
-        mergedata.columns = columns
 
         # change type from object to float
         #print(mergedata[columns[1:]].astype(str))
@@ -240,7 +236,10 @@ def GetMeanData(df):
 
     for i, time in enumerate(uni_index):
         #print(df[df['time'] == uni_index[i]]['RSSI'].mean(axis=0))
+        # for old dataframe version
         new_df = new_df.append({'time': time, 'RSSI': df[df['time'] == uni_index[i]]['RSSI'].mean(axis=0)}, ignore_index=True)
+        # for new dataframe version
+        # new_df = pd.concat([new_df, pd.DataFrame.from_dict({'time': time, 'RSSI': df[df['time'] == uni_index[i]]['RSSI'].mean(axis=0)}, orient='index').T], ignore_index=True)
     return new_df
 
 def parse_args():
@@ -266,7 +265,12 @@ def parse_args():
     parser.add_argument('--mode',
                         help='Mode about how to get data and do normalization, train or valid or test',
                         type=str,
-                        default='train')
+                        default='train')      
+
+    parser.add_argument('--timestep',
+                        help='set time step',
+                        type=int,
+                        default=3)
     args = parser.parse_args()
     return args
 

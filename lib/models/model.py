@@ -62,6 +62,7 @@ class OneDCNN_Net(nn.Module):
 
     def forward(self, x):
 
+        x = x.permute(0,2,1)
         x = self.cnn_1d(x)
         x = F.softmax(x, dim=1)
         return x
@@ -84,6 +85,7 @@ class LSTM_Net(nn.Module):
         # 8 blocks
         self.out_dimension = 8
 
+        #self.lstm = nn.LSTM(self.in_dimension, 20)
         self.lstm = nn.LSTM(self.in_dimension, 20)
 
         # self.classifier = nn.Sequential(

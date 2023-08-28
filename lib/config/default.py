@@ -97,6 +97,8 @@ def update_config(cfg, args):
         cfg.AFTER_DIR = 'BLE/' + cfg.AFTER_DIR
     if os.path.basename(os.getcwd()) != 'BLE':
         cfg.MODEL.PRETRAINED = 'BLE/' + cfg.MODEL.PRETRAINED
+    if args.timestep:
+        cfg.MODEL.TIMESTEP = args.timestep
     # 變為不可更改狀態
     cfg.freeze()
 

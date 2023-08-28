@@ -1,0 +1,107 @@
+UUID : '0000dd9b-0000-1000-8000-00805f9b34fb'
+START_TIME : ['15:23:09', '15:23:13', '15:23:16', '15:23:19', '15:23:22', '15:23:25', '15:23:27', '15:23:30']
+END_TIME : ['15:23:13', '15:23:16', '15:23:19', '15:23:22', '15:23:25', '15:23:27', '15:23:30', '15:23:33']
+LABEL_LIST : [7, 6, 5, 4, 3, 2, 1, 0]
+BEFORE_DIR : './before/U19e_outdoor0517/'
+AFTER_DIR : './after/Sharp_outdoor0517test2_4/'
+OUTPUT_DIR: 'output'
+FILE : 'sniffer_'
+FILE_TYPE : 'csv'
+OUTPUT_NAME : 'Sharp_outdoor0517test2_4'
+AP_NUMS : 4
+AP_NAME : ['zero', 'one', 'two', 'three']
+TEST_FOR_VIDEO : false
+TEST_VIDEO_PATH : './videos/0517test2_9.mp4'
+
+MODEL :
+  TYPE : 'LSTM'
+  INIT_WEIGHTS : true
+  #PRETRAINED : ''
+  PRETRAINED : 'output/U19e_outdoor0103/model_lstm5_aug.pth'
+  #PRETRAINED : 'output/U19e_outdoor1118/checkpoint_lstm.pth'
+  #PRETRAINED : 'output/sharp4025_test2/checkpoint.pth'
+  # --------MEBOW--------
+  USE_FEATUREMAP: true
+  NAME: pose_hrnet
+  NUM_JOINTS: 17
+  MEBOW_PRETRAINED: 'MEBOW/model_hboe.pth'
+  TARGET_TYPE: gaussian
+  IMAGE_SIZE:
+  - 192
+  - 256
+  HEATMAP_SIZE:
+  - 48
+  - 64
+  SIGMA: 2
+  EXTRA:
+    PRETRAINED_LAYERS:
+    - 'conv1'
+    - 'bn1'
+    - 'conv2'
+    - 'bn2'
+    - 'layer1'
+    - 'transition1'
+    - 'stage2'
+    - 'transition2'
+    - 'stage3'
+    - 'transition3'
+    - 'stage4'
+    FINAL_CONV_KERNEL: 1
+    STAGE2:
+      NUM_MODULES: 1
+      NUM_BRANCHES: 2
+      BLOCK: BASIC
+      NUM_BLOCKS:
+      - 4
+      - 4
+      NUM_CHANNELS:
+      - 32
+      - 64
+      FUSE_METHOD: SUM
+    STAGE3:
+      NUM_MODULES: 4
+      NUM_BRANCHES: 3
+      BLOCK: BASIC
+      NUM_BLOCKS:
+      - 4
+      - 4
+      - 4
+      NUM_CHANNELS:
+      - 32
+      - 64
+      - 128
+      FUSE_METHOD: SUM
+    STAGE4:
+      NUM_MODULES: 3
+      NUM_BRANCHES: 4
+      BLOCK: BASIC
+      NUM_BLOCKS:
+      - 4
+      - 4
+      - 4
+      - 4
+      NUM_CHANNELS:
+      - 32
+      - 64
+      - 128
+      - 256
+      FUSE_METHOD: SUM
+  # --------MEBOW--------
+
+TRAIN :
+  BATCH_SIZE : 32
+  SHUFFLE : true
+  BEGIN_EPOCH : 0
+  END_EPOCH : 200
+  OPTIMIZER : adam
+  LR : 0.001
+  LR_FACTOR : 0.1
+
+TEST :
+  #RSSI_LIST : [ [-42, -103], [-54, -96], [-55, -99], [-59, -96]] # U19e
+  #RSSI_LIST : [ [-48, -103], [-52, -95], [-30, -97], [-48, -91]] # Sharp
+  #RSSI_LIST : [ [-38, -96], [-31, -93], [-26, -93], [-29, -97]] # U19e outdoor1 1113 4 sniffer
+  #RSSI_LIST : [ [-44, -95], [-28, -101], [-11, -97], [-28, -96]] # U19e outdoor2 1118 4 sniffer
+  #RSSI_LIST : [[-41, -98], [-30, -102], [-28, -101], [-28, -96], [-30, -98], [-33, -95]] # U19e outdoor3 1201 6 sniffer
+  RSSI_LIST : [ [-40, -102], [-31, -98], [-17, -95], [-28, -95]] # U19e outdoor4 0103 4 sniffer
+

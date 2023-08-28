@@ -1,6 +1,6 @@
 UUID : '0000f22e-0000-1000-8000-00805f9b34fb'
 START_TIME : ['15:48:10', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx']
-END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:28']
+END_TIME : ['xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', '15:48:36']
 LABEL_LIST : [0, 1, 2, 3, 4, 5, 6, 7]
 BEFORE_DIR : './before/U19e_outdoor0318/'
 AFTER_DIR : './after/U19e_outdoor0318test2/'
@@ -17,7 +17,7 @@ MODEL :
   TYPE : 'LSTM'
   INIT_WEIGHTS : true
   #PRETRAINED : ''
-  PRETRAINED : 'output/U19e_outdoor0103/checkpoint_lstm5.pth'
+  PRETRAINED : 'output/U19e_outdoor0103/model_lstm5_aug.pth'
   #PRETRAINED : 'output/U19e_outdoor1118/checkpoint_lstm.pth'
   #PRETRAINED : 'output/sharp4025_test2/checkpoint.pth'
   # --------MEBOW--------

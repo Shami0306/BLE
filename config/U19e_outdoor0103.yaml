@@ -15,6 +15,7 @@ MODEL :
   TYPE : 'LSTM'
   INIT_WEIGHTS : true
   PRETRAINED : ''
+  #PRETRAINED : 'output/U19e_outdoor0103/checkpoint_1dcnn_t3.pth'
   #PRETRAINED : 'output/U19e_outdoor1118/checkpoint.pth'
   #PRETRAINED : 'output/sharp4025_test2/checkpoint.pth'
 
@@ -22,7 +23,7 @@ TRAIN :
   BATCH_SIZE : 32
   SHUFFLE : true
   BEGIN_EPOCH : 0
-  END_EPOCH : 400
+  END_EPOCH : 200
   OPTIMIZER : adam
   LR : 0.001
   LR_FACTOR : 0.1

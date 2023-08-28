@@ -1,1 +1,1 @@
-from .snifferdata import RSSI_Dataset, RSSI_DatasetForTest
+from .snifferdata import RSSI_Dataset, RSSI_DatasetForTest, RSSI_DatasetForMultiTest

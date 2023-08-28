@@ -46,6 +46,17 @@ def parse_args():
                         help='loss : save by validation loss, acc : save by validation accuracy',
                         type=str,
                         default='loss')
+    
+    parser.add_argument('--loss2',
+                        help='set loss2 weight',
+                        type=float,
+                        default=1000)
+    
+    parser.add_argument('--timestamp',
+                        help='set timestamp',
+                        type=int,
+                        default=3)    
+        
     args = parser.parse_args()
 
     return args
@@ -58,9 +69,9 @@ def main():
 
     model = get_model(cfg, is_train=True)
     dataset = RSSI_Dataset(cfg)
-    train_len = math.floor(0.85 * len(dataset))
+    train_len = int(0.85 * len(dataset))
     valid_len = len(dataset) - train_len
-    
+
     train_data, valid_data = torch.utils.data.random_split(dataset, [train_len, valid_len])
 
     train_loader = torch.utils.data.DataLoader(
@@ -77,13 +88,13 @@ def main():
     
     optimizer = get_optimizer(cfg, model)
     loss_func = nn.CrossEntropyLoss()
-
-    checkpoint_file = os.path.join(
-        final_output_dir, 'checkpoint.pth'
-    )
+    #loss_func2 = nn.BCELoss()
 
     begin_epoch = cfg.TRAIN.BEGIN_EPOCH
-
+    # --- load checkpoint ---
+    checkpoint_file = os.path.join(
+        final_output_dir, 'model_lstm5.pth'
+    )
     if os.path.exists(checkpoint_file):
         logger.info("=> loading checkpoint '{}'".format(checkpoint_file))
         checkpoint = torch.load(checkpoint_file)
@@ -97,7 +108,7 @@ def main():
             checkpoint_file, checkpoint['epoch']))
 
     lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, patience=10, min_lr= 1e-6, factor=0.5
+        optimizer, patience=10, min_lr= 1e-4, factor=0.5
     )
 
 
@@ -111,9 +122,11 @@ def main():
         # training
         model.train()
         train_loss = 0
-        for i, (x, y) in enumerate(train_loader):
-            y_ = model(x)
-            loss = loss_func(y_, y)
+        for i, (x, y1) in enumerate(train_loader):
+            y1_pred = model(x)
+            loss1 = loss_func(y1_pred, y1)
+            #loss2 = loss_func2(y2_pred, y2)
+            loss = loss1 #+ loss2*args.loss2
 
             optimizer.zero_grad()
             loss.backward()
@@ -139,7 +152,7 @@ def main():
                 loss = loss_func(y_valid, y)
 
                 _, maxk = torch.topk(y_valid, k, dim=-1)
-                #maxk = pf.update(y_valid)
+                #maxk = pf.run(y_valid)
                 #print(maxk)
                 y = y.view(-1, 1)
                 #print(y)

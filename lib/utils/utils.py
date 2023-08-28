@@ -114,9 +114,10 @@ def get_acceptable_range(ac_range, side, theta_tp):
         return ac_range[::-1]
 
 def get_corrected_direction(ac_range, user_angle):
+    corrected_angle = 0
     # 若用戶的朝向位於acceptable range中，表示為Situation 3但走的方向正確
     if check_in_range_eq(ac_range[0], ac_range[1], user_angle):
-        return 0
+        return 0, corrected_angle
     # 其餘偏離的情況，用戶的朝向位於rejectable range中
     # 取rejectable range的中間值作為區別往左或往右的邊界
     reject_range = ac_range[::-1] # 因為起點到終點的方向是逆時針，所以包含的範圍會不一樣
@@ -127,7 +128,9 @@ def get_corrected_direction(ac_range, user_angle):
         mid = (reject_range[0] + reject_range[1])/2
     mid %= 360
     if check_in_range(reject_range[0], mid, user_angle):
-        return -1
+        corrected_angle = min(abs(user_angle - reject_range[0]), 360 - abs(user_angle - reject_range[0]))
+        return -1, corrected_angle
     else:
-        return 1
+        corrected_angle = min(abs(reject_range[1] - user_angle), 360 - abs(reject_range[1] - user_angle))
+        return 1, corrected_angle
 
